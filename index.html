@@ -8,9 +8,12 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/main.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -20,46 +23,181 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+	
+
+
+
 	</head>
 	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-				<h2>React for Beginners</h2>
-				<h4>@karinaislam2 , github.com/Karinaislam</h4>
-				</section>
-				<section>
-					<h1>How I met React</h1>
-					<section>What is react?</section>
-			<section>Why react?
-				<h4>Advantages and disadvantages of React</h4></section>
-				</section>
-				<section>
-					<h1> How to learn React?</h1>
-				</section>
-				<section>
-					<section>Component</section> 
-				    <section>Uni Drectional Data Flow</section>
-				    <section>Virtual DOM</section>
-				    <section>JSX</section>
-				    <section>Props</section>
-				    <section>State</section>
-				    <section>Props VS States</section>
-				    <section>Component Life Cycle</section>
-				    <section>Events</section>
-				</section>
-					
-				<section>
-					<h1> creating Component</h1>
-				</section>
-				 <section>
-					<h1> Embeding Components into one</h1>
-				</section>
-				<section>
-					<h1> Passing dynamic data with props </h1>
-				</section>
-				<section>
-					<h1> Play with state</h1>
+	<div class="reveal">
+	<div class="slides">
+
+	<section>
+		<h2 class="header">React for Beginners</h2>
+		<h5>@karinaislam2</h5> 
+		<h5>github.com/Karinaislam</h5>
+	</section>
+
+	<section>
+		<section><h2>When I realize I have to learn React? </h2></section>
+		<section><img src="framework.png"></section>	
+	</section>
+
+
+	<section>
+		<section><h1>Why react? </h1></section>
+		<section><img src="angular1.PNG"></section>
+		<section><img src="vue.PNG"></section>
+	</section>
+
+	<section>
+		<section><h1> How I learn React?</h1></section>
+		<section>
+		   <h1> Learning steps</h1></br>
+		   <h4 class="fragment fade-in">Step 1 : Understand the fundamentals</h4>
+		  <h4 class="fragment fade-in"> Step 2 : Doing some practical projects</h4>
+	    </section>
+	</section>
+
+	
+	<section><h2>Fundamentals of React</h2></section>
+		
+	<section>
+		<section><h2>Component</h2></br>
+			<ul>
+				<li class="fragment fade-in">Building blocks of React</li>
+				<li class="fragment fade-in">Can be Reusable</li>
+				<li class="fragment fade-in">Return one dom element</li>
+			</ul>
+		</section>
+		<section><img src="images/C1.png"></section>
+		 <section><img src="images/C2.png"></section>
+		
+		<section><img src="images/C4.png"></section>
+		<section><img src="images/C5.png"></section>
+		<section><img src="images/C6.png"></section>
+	</section>
+
+
+	 <section>
+       <h2>Props</h2> </br>
+        <ul>
+       	 <li class="fragment fade-in"> Communication channel between components : A way of </li>
+		<li class="fragment fade-in"> Pass data from parent to child </li>
+       	
+	   <li class="fragment fade-in"> Props are immutable (fancy word for it not changing)</ li>
+       </ul>
+	</section>
+
+	 <section>
+       <h2>State</h2></br> 
+        <ul>
+       	 <li class="fragment fade-in">State is used for mutable data</li>
+	   <li class="fragment fade-in">Fully controlled by the component</li>
+	   <li class="fragment fade-in">SetState updates the state object and then re-renders the component</li>
+       </ul>
+       
+	</section>
+
+	 <section>
+       <h2>Props VS States</h2> </br>
+      	<img src="images/props vs state.png">
+	</section>
+
+	<section>
+       <h2>Virtual DOM</h2></br> 
+       <ul>
+       	 <li class="fragment fade-in">Representation of a DOM object, like a lightweight copy</li>
+	   <li class="fragment fade-in">Keep Markup Organized and DRY</li>
+       </ul>
+      
+	</section>
+
+		
+    <section>
+       <h2>JSX</h2> </br>
+       <ul>
+       	<li class="fragment fade-in">Transform HTML-like syntax to JS </li>
+	   <li class="fragment fade-in">Keep Markup Organized and DRY</li>
+       </ul>
+       
+	</section>
+
+	 
+	
+	
+	<section>
+       <h2>Component Life Cycle</h2> </br>
+       <ul>
+       	 <li class="fragment fade-in">Representation of a DOM object, like a lightweight copy</li>
+	   <li class="fragment fade-in">Keep Markup Organized and DRY</li>
+       </ul>
+	</section>
+<section>Events</section>
+<section>Uni Drectional Data Flow</section>
+
+
+			
+	<section>
+		<section><h2> Creating React App</h2></section>
+			<section><p>Step 1</p>
+			<img src="images/createApp.png">
+		</section>
+		<section><p>Step 2</p>
+			<img src="images/quickView.png">
+		</section>
+		<section><p>Step 3</p>
+			<img src="images/npmRun.png">
+		</section>
+	</section>
+
+
+
+	<section>
+		<section><h2> creating Component</h2></section>
+			<section><p>Step 1</p>
+			<img src="images/reactFloder.png">
+		</section>
+		<section><p>Step 2</p>
+			<img src="images/SourceFolder.png">
+		</section>
+		<section><p>Step 3</p>
+			<img src="images/npmRun.png">
+		</section>
+		
+	</section>
+				
+
+	 <section>
+		<h1> Embeding Components into one</h1>
+	</section>
+
+	<section>
+		<section><h1> Passing dynamic data with props </h1></section>
+		
+		<section><p>Step 1</p>
+			<img src="images/props1.png">
+		</section>
+		<section><p>Step 2</p>
+			<img src="images/props2.png">
+		</section>
+		<section><p>Step 3</p>
+			<img src="images/props3.png">
+		</section>
+	</section>
+				
+
+	<section>
+		<section><h1> Play with state</h1></section>
+		<section><p>Step 1</p>
+			<img src="images/state1.png">
+		</section>
+		<section><p>Step 2</p>
+			<img src="images/state2.png">
+		</section>
+		<section><p>Step 3</p>
+			<img src="images/state3.png">
+		</section>
 					<section>
 					<h1>Declaring state </h1>
 				   </section>
